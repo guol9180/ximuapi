@@ -1,6 +1,7 @@
 package com.ximu.ximuapi.model.entity;
 
 import com.baomidou.mybatisplus.annotation.TableField;
+import com.baomidou.mybatisplus.annotation.TableName;
 import com.ximu.ximuapi.common.BaseEntity;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
@@ -9,7 +10,7 @@ import lombok.EqualsAndHashCode;
  * @author: 析木
  * @description: 用户实体类
  */
-
+@TableName(value ="user")
 @Data
 @EqualsAndHashCode(callSuper = true) // 确保父类的属性也被考虑在内。
 public class User extends BaseEntity {
