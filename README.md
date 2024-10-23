@@ -1,4 +1,4 @@
-## Spring Boot项目初始化模板
+## API 开放平台 Spring Boot项目
 
 > 作者：析木
 
